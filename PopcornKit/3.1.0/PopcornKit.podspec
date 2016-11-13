@@ -23,4 +23,5 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftyJSON'
   s.dependency 'Locksmith'
   s.ios.dependency 'SRT2VTT'
+  s.ios.dependency 'google-cast-sdk'
 end
