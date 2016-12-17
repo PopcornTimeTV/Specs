@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "PopcornTime" => "popcorn@time.tv" }
   s.requires_arc = true
-  s.source = { :git => "https://github.com/PopcornTimeTV/PopcornTorrent.git", :tag => s.version }
+  s.source = { :http => 'https://github.com/PopcornTimeTV/PopcornTorrent/releases/download/1.1.3/PopcornTorrent.zip' }
   s.dependency 'GCDWebServer', '~> 3.3.3'
   s.platforms = { :ios => "9.0", :tvos => "9.0" }
 
