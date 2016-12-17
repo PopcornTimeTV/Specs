@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = "PopcornTorrent"
-  s.version          = "1.1.3"
+  s.version          = "1.1.2.1"
   s.summary          = "Torrent client for iOS and tvOS (Used by PopcornTime)"
   s.homepage         = "https://github.com/PopcornTimeTV/PopcornTorrent"
   s.license          = 'MIT'
   s.author           = { "PopcornTime" => "popcorn@time.tv" }
   s.requires_arc = true
-  s.source = { :http => 'https://github.com/PopcornTimeTV/PopcornTorrent/releases/download/1.1.3/PopcornTorrent.zip' }
+  s.source = { :http => 'https://github.com/PopcornTimeTV/PopcornTorrent/releases/download/1.1.2.1/PopcornTorrent.zip' }
   s.dependency 'GCDWebServer', '~> 3.3.3'
   s.platforms = { :ios => "9.0", :tvos => "9.0" }
 
